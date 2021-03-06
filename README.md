@@ -43,21 +43,17 @@ Explic functionalitatea fiecarei functii folosite din cadrul celor doua implemen
     * Introduc aceste valori in *sol*, (avand grija
     la indici) si mergand pana la elementul maxim din *index*, restul ramanand 0,
     asa cum este initializat *sol*, la inceput.
-
-  Fac acelasi lucru si pentru matricile G si B
+    Fac acelasi lucru si pentru matricile G si B
 
 2. hsvHistogram
-
   Pentru fiecare pixel din matricile *R* *G* *B*, fac conversie pentru a obtine
   informatii despre pixel, in format *hsv*. Folosesc astfel functia *RGBB2HSV*
   care imi returneaza vectorii *h* *s* si *v* ce contin toti pixelii imaginii.
   Am folosit algoritmul din pseudocod dat in [enunt](https://acs.curs.pub.ro/2019/pluginfile.php/67380/mod_resource/content/12/Tema%201%20MN%20-%202020.pdf#subsubsection.3.2.2), intr-o forma vectorizata.
-
   Folosesc acesti vectori *h* *s* *v* in functia principala in acelasi fel ca
   in *rgbHistogram*.
 
 3. Householder
-
   Folosesc algoritmul pentru a genera matricile *Q* si *R*.
 
 4. SST
